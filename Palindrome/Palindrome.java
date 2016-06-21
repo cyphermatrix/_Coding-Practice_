@@ -2,23 +2,18 @@
 public class Palin {
   public static void main(String[] args)
   {
-    if(isPalin)
-    System.out.println("True");
-    System.out.println("False");
+    if(isPalin(args[1]))
+    System.out.println("true");
+    System.out.println("false");
   }
-  public boolean isPalin(int a)
+  public boolean isPalin(String a)
   {
-    int num = a;
-    int reverse = 0;
-    int digit = 0;
-    while(num > 0)
+    int n = a.length();
+    for(int i = 0; i < n/2; i++)
     {
-      digit = num % 10;
-      reverse = reverse * 10 + dig;
-      num = num/10;
+      if(a.charAt(i) != s.charAt(n-1-i))
+      return false
     }
-    if(num == reverse)
     return true;
-    return false;
   }
 }
