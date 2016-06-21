@@ -12,3 +12,6 @@ Just a bunch of coding problems.
 
 ## Problems
 * ZeroTo1000
+* Plaindrome
+* PythagoreanTriplet
+* VowelCounter

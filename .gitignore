@@ -3,3 +3,6 @@
 
 # C++/Rust
 *.exe
+
+# Stuff
+*.bat
