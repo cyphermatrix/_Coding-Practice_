@@ -1,5 +1,5 @@
 //PythagoreanTriplet 
-public class PyTrip {
+public class PythagoreanTriplet {
   public static void main(String[] args)
   {
     int a = args[1];
