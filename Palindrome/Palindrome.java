@@ -1,5 +1,5 @@
 //Palindrome 
-public class Palin {
+public class Palindrome {
   public static void main(String[] args)
   {
     if(isPalin(args[1]))
