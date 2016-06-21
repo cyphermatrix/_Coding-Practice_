@@ -6,7 +6,7 @@ public class Palindrome {
     System.out.println("true");
     System.out.println("false");
   }
-  public boolean isPalin(String a)
+  public static boolean isPalin(String a)
   {
     int n = a.length();
     for(int i = 0; i < n/2; i++)
